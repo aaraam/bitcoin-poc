@@ -1,0 +1,20 @@
+{
+  "name": "bitcoin-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bitcore-explorers": "^1.0.1",
+    "bitcore-lib": "^8.25.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
